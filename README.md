@@ -10,9 +10,9 @@ According to our linear regression, the p-values for vehicle length and ground c
 
 <p align="left">
   <img 
-    width="300"
-    height="300"
-    src="https://picsum.photos/300/300"
+    width="425"
+    height="225"
+    src="images/multiple_linear_regression.png"
   >
 </p>
 <br>
@@ -22,9 +22,9 @@ The slope of the linear model is not considered to be zero. This can be seen in 
 
 <p align="left">
   <img 
-    width="300"
-    height="300"
-    src="https://picsum.photos/300/300"
+    width="551"
+    height="112"
+    src="images/slope.png"
   >
 </p>
 <br>
@@ -32,6 +32,13 @@ The slope of the linear model is not considered to be zero. This can be seen in 
 __Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?__ <br>
 It is fair to say that this linear model does in fact predict mpg of MechaCar prototypes effectiely. While our r-squared value is 0.71, since we are evaluating multiple variables, we need to use our adjusted r-squared value, which is 0.68. In other words, our variables are 68% accurate in predicting miles per gallon. However it is important to note that only two of the five variables provided a non-random amount of variance to the mpg values in the dataset. Therefore, it would be wise to re-run this linear regression with our two statistically insignificant variables. 
 
-
+<p align="left">
+  <img 
+    width="612"
+    height="104"
+    src="images/r-squared.png"
+  >
+</p>
+<br>
 
 
